@@ -204,6 +204,7 @@
 
 
 
+
 <footer id="contato" class="text-center">
   <div class="container">
     <p>© AB Advocacia </p>
@@ -213,6 +214,266 @@
       <a href="https://mail.google.com/"><i class="bi bi-envelope"></i></a>
     </div>
   </div>
+  <form
+  action="https://formspree.io/f/meorkkyp"
+  method="POST" class="text-center">
+ 
+ <label>
+   Nome:
+    <input type="nome" name="nome">
+  </label> 
+   <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+  <input name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+  <textarea name="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+   <button type="submit" class="btn btn-primary">Submit</button>
+</div>
+</form>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Escritório de Advocacia</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+
+
+   
+    .navbar-dark {  background-color: #1c1c1c; }
+    h2 { color: #bfa14a; }
+    footer { background: #1c1c1c; color: white; padding: 20px ; }
+    footer a { color: #bfa14a; margin: 10px; font-size: 1.3rem; }
+    .nav-link:hover { color: #ffcc00 ; }
+    .nav-link{color: rgb(255, 249, 249);}
+
+    .card-img-top {
+      width: 200px; 
+      height: 200px;
+      object-fit: cover;
+      margin: auto;
+      border-radius: 50%;
+    }
+
+  </style>
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark py-3 " >
+  <div class="container">
+    <a class="navbar-brand fw-bold text-uppercase" href="#"><i class="bi bi-balance-scale"></i> AB Advocacia</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a> </li>
+        <li class="nav-item"><a class="nav-link" href="#atuacao">Áreas de Atuação</a></li>
+        <li class="nav-item"><a class="nav-link" href="#equipe">Equipe</a></li>
+        <li class="nav-item"><a class="nav-link" href="#depoimentos">Depoimentos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+<section id="sobre" class="py-5">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <div class="col-md-6">
+        <h2>Sobre o Escritório</h2>
+        <p>
+          Fundado com o compromisso de oferecer serviços jurídicos de excelência,
+          nosso escritório atua com ética, transparência e dedicação. Buscamos sempre
+          a melhor solução para nossos clientes, preservando seus direitos e
+          garantindo segurança jurídica.
+        </p>
+      </div>
+
+      <div class="col-md-6 d-flex justify-content-center">
+        <div id="sobreCarousel" class="carousel slide w-100" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="ratio ratio-16x9">
+                <img src="imagens/img1.jpg" class="d-block w-100" style="object-fit: cover; border-radius: 10px; box-shadow: 5px 5px 10px rgb(18, 18, 18);" alt="Imagem 1">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="ratio ratio-16x9">
+                <img src="imagens/img2.jpg" class="d-block w-100" style="object-fit: cover; border-radius: 10px; box-shadow: 5px 5px 10px rgb(18, 18, 18);" alt="Imagem 2">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="ratio ratio-16x9">
+                <img src="imagens/img3.jpg" class="d-block w-100" style="object-fit: cover; border-radius: 10px; box-shadow: 5px 5px 10px rgb(18, 18, 18);" alt="Imagem 3">
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#sobreCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#sobreCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Próximo</span>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<section id="atuacao" class="py-5 bg-light">
+  <div class="container text-center">
+    <h2 class="mb-4">Áreas de Atuação</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <i class="bi bi-briefcase fs-1 text-dark"></i>
+            <h5 class="card-title mt-3">Direito Empresarial</h5>
+            <p class="card-text">Assessoria jurídica para empresas em contratos, compliance e litígios.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <i class="bi bi-house-door fs-1 text-dark"></i>
+            <h5 class="card-title mt-3">Direito Imobiliário</h5>
+            <p class="card-text">Atuação em compra e venda, locação e regularização de imóveis.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <i class="bi bi-person-badge fs-1 text-dark"></i>
+            <h5 class="card-title mt-3">Direito Trabalhista</h5>
+            <p class="card-text">Defesa de direitos de empregados e empregadores em ações trabalhistas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="equipe" class="py-5">
+  <div class="container text-center">
+    <h2 class="mb-4">Nossa Equipe</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="imagens/personagem1.jpg" class="card-img-top" alt="Advogado 1">
+          <div class="card-body">
+            <h5 class="card-title">Dr. Kakashi Hatake</h5>
+            <p class="card-text">Advogado Fundador</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="imagens/personagem2.jpg" class="card-img-top" alt="Advogado 2">
+          <div class="card-body">
+            <h5 class="card-title">Dr. Son Goku</h5>
+            <p class="card-text">Advogado Trabalhista</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="imagens/personagem3.png" class="card-img-top" alt="Advogado 3">
+          <div class="card-body">
+            <h5 class="card-title">Dr. Pikachu </h5>
+            <p class="card-text">Advogado Empresarial</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="depoimentos" class="py-5 bg-light"> 
+  <div class="container text-center"> <h2 class="mb-4">Depoimentos</h2>
+<div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" >
+      <p>"Os melhores da área, nunca erraram! E se erraram, foi tentando acertar!!!"</p>
+    <small>- Lionel Messi</small>
+    </div>
+    <div class="carousel-item">
+  <p >"Profissionais extremamente competentes, resolveram meu caso com rapidez."</p> 
+  <small>- Arnold Schwarzenegger</small>
+    </div>
+    <div class="carousel-item">
+   <p>"Excelência e dedicação em cada detalhe."</p> 
+  <small>- Cristiano Ronaldo</small>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+</section>
+
+
+
+
+
+
+<footer id="contato" class="text-center">
+  <div class="container">
+    <p>© AB Advocacia </p>
+    <div>
+      <a href="http://www.facebook.com/"><i class="bi bi-facebook"></i></a>
+      <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+      <a href="https://mail.google.com/"><i class="bi bi-envelope"></i></a>
+    </div>
+  </div>
+  <form
+  action="https://formspree.io/f/meorkkyp"
+  method="POST" class="text-center">
+ 
+ <label>
+   Nome:
+    <input type="nome" name="nome">
+  </label> 
+   <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+  <input name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+  <textarea name="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+   <button type="submit" class="btn btn-primary">Submit</button>
+</div>
+</form>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
